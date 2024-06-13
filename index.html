@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        table,th,td,tr{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Aula 02</h1>
+    <h1>Exemplos de utilização das tags</h1>
 
     <h2>Apresentação das listas</h2>
 
@@ -36,6 +42,51 @@
         <li>Outra Coisa</li>
     </ol>
 
-    <img src="" alt="" width="10px">
+    <h2> Apresentação Tabelas</h2>
+
+    <table>
+
+        <!-- título das colunas -->
+        <tr>
+            <th>coluna1</th>
+            <th>coluna2</th>
+            <th>coluna3</th>
+        </tr>       
+        
+        <!-- informações da tabela -->
+        <tr>
+            <td>Info Linha1 Col1</td>
+            <td>Info Linha1 Col2</td>
+            <td>Info Linha1 Col3</td>
+        </tr>
+        <tr>
+            <td>Info Linha2 Col1</td>
+            <td>Info Linha2 Col2</td>
+            <td>Info Linha2 Col3</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Info linha3 Col1/2</td>
+            <td>Info Linha3 Col3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Info Linha 4/5 col1</td>
+            <td>Info Linha 4 col2</td>
+            <td>Info Linha 4 col3</td>
+        </tr>
+
+        <tr>
+            <td>Info linha 5 col2</td>
+            <td>Info linha 5 col3</td>
+        </tr>
+
+    </table>
+
+
+
+
+
+    
 </body>
 </html>
