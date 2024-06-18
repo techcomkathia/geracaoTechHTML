@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="bg-secondary">
+    <h1 class="text-light fs-2 text-center text-uppercase py-5 bg-dark">Formulário de Cadastro</h1>
+    
+    <div class="container  justify-content-center d-flex">
+        <form action="" class="w-75 bg-light form p-4">
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <!-- Mensagem -->
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagens</label>
+                <textarea class="form-control" id="mensagem" rows="3"></textarea>
+            </div>
+            <!-- Turno (manha/ tarde/ noite) mais de uma opção -->
+            <div class="mb-3 " >
+                <label for="" class="form-label d-block">Turno:</label>
+                <input type="checkbox" value="manha" id="turnoManha" name="turno" class="form-check-input">
+                <label for="turnoManha" class="form-check-label">Manhã</label>
+                <input type="checkbox" value="tarde" id="turnoTarde" name="turno" class="form-check-input">
+                <label for="turnoTarde" class="form-check-label">Tarde</label>
+                <input type="checkbox" value="noite" id="turnoNoite" name="turno" class="form-check-input">
+                <label for="turnoNoite" class="form-check-label">Noite</label>
+            </div>
+            <!-- Linguagem ( seleção única ) -->
+            <div class="mb-3">
+                <label for="linguagens" class="form-label">Linguagem:</label>
+                <select name="" id="linguagens" class="form-select">
+                    <options value="JS"> JavaScript</options>
+                    <options value="Python"> Python</options>
+                    <options value="Cobol"> Cobol</options>
+                </select>
+
+            </div>
+            <!-- Botão enviar -->
+        </form>
+    </div>
+    
+        
+
+        
+      
+    
+</body>
+</html>
